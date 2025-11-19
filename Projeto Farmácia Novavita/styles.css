@@ -1,0 +1,182 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", Arial, sans-serif;
+    background: #f9fdfb; /* branco levemente esverdeado, bem clean */
+    color: #3a3a3a;
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #e6f3ed;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Logo */
+.logo {
+    height: 58px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.03);
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 28px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #4c6052;
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+/* Efeito indicador suave */
+.menu a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background: #2d7a46;
+    transition: width 0.3s ease;
+}
+
+.menu a:hover {
+    color: #2d7a46;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
+
+/* Botões */
+.buttons .btn {
+    padding: 10px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 12px;
+    transition: background 0.3s ease, transform 0.25s ease, box-shadow 0.3s ease;
+    display: inline-block;
+}
+
+/* Entrar */
+.entrar {
+    background-color: #2d7a46;
+    color: white;
+}
+
+.entrar:hover {
+    background-color: #245f38;
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 10px rgba(45, 122, 70, 0.3);
+}
+
+/* Registrar */
+.registrar {
+    background-color: #45a060;
+    color: white;
+}
+
+.registrar:hover {
+    background-color: #3a8a52;
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 10px rgba(69, 160, 96, 0.3);
+}
+
+/* BANNER */
+.banner {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+}
+
+/* RODAPÉ */
+.rodape-site {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.rodape-site p {
+    font-size: 12px;
+    font-style: italic;
+    color: #6A4A4A;
+}
+sobre /* ---------- SOBRE NÓS ---------- */
+
+.sobre-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 30px;
+}
+
+.sobre-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sobre-header h1 {
+    font-size: 34px;
+    color: #2d7a46;
+    font-weight: 700;
+}
+
+.sobre-header p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #4c6052;
+}
+
+/* Conteúdo dividido em texto + imagem */
+.sobre-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+/* Texto principal */
+.sobre-texto h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #2d7a46;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.sobre-texto p {
+    color: #444;
+    line-height: 1.7;
+    margin-bottom: 18px;
+    font-size: 16px;
+}
+
