@@ -180,3 +180,489 @@ sobre /* ---------- SOBRE NÓS ---------- */
     font-size: 16px;
 }
 
+.img-lab {
+    width: 500px; 
+    height: 400px;
+}
+/* ---------- CONTATO ---------- */
+
+.contato-container {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.contato-container h1 {
+    font-size: 34px;
+    color: #2d7a46;
+    font-weight: 700;
+}
+
+.contato-container .subtitulo {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #4c6052;
+    opacity: 0.9;
+}
+
+.contato-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.contato-card {
+    background: #ffffff;
+    border: 1px solid #e6f3ed;
+    width: 330px;
+    padding: 25px;
+    text-align: left;
+    border-radius: 14px;
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.05);
+    text-decoration: none;
+    color: #3a3a3a;
+    transition: transform 0.25s ease, box-shadow 0.3s ease;
+}
+
+.contato-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.08);
+}
+
+.contato-card h2 {
+    font-size: 22px;
+    color: #2d7a46;
+    margin-bottom: 8px;
+}
+
+.contato-card p {
+    font-size: 16px;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+.btn-ver {
+    display: inline-block;
+    font-weight: bold;
+    color: #2d7a46;
+    background: #eaf7f0;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+/* ---------- CONTATO (mais completo) ---------- */
+
+.contato-container {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.contato-container h1 {
+    font-size: 36px;
+    color: #2d7a46;
+    font-weight: 700;
+}
+
+.contato-container .subtitulo {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #4c6052;
+    opacity: 0.9;
+}
+
+/* MAPA */
+.mapa-wrapper {
+    margin-top: 40px;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0px 8px 22px rgba(0,0,0,0.08);
+}
+
+.mapa-wrapper iframe {
+    width: 100%;
+    height: 350px;
+    display: block;
+    border: none;
+}
+
+/* DIVISOR */
+.divisor {
+    margin: 50px auto;
+    width: 180px;
+    border: none;
+    height: 2px;
+    background: #dcefe6;
+    border-radius: 10px;
+}
+
+/* CARDS */
+.contato-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.contato-card {
+    background: #ffffff;
+    border: 1px solid #e6f3ed;
+    width: 330px;
+    padding: 30px;
+    text-align: left;
+    border-radius: 16px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.05);
+    text-decoration: none;
+    color: #3a3a3a;
+    transition: transform 0.25s ease, box-shadow 0.35s ease;
+}
+
+/* Ícone grande */
+.contato-card .icon {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+/* Título */
+.contato-card h2 {
+    font-size: 22px;
+    color: #2d7a46;
+    margin-bottom: 8px;
+}
+
+/* Texto */
+.contato-card p {
+    font-size: 16px;
+    color: #4c4c4c;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Botão */
+.btn-ver {
+    display: inline-block;
+    font-weight: bold;
+    color: #2d7a46;
+    background: #eaf7f0;
+    padding: 9px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+/* Hover premium */
+.contato-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 12px 30px rgba(0,0,0,0.1);
+}
+
+.contato-card:hover .btn-ver {
+    background: #d6f0e2;
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+    .contato-container {
+        padding: 0 25px;
+    }
+    .contato-cards {
+        gap: 20px;
+    }
+}
+/* Fonte padrão */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f6fdf8; /* Fundo verde pastel muito claro */
+    color: #2d4a3f; /* Verde escuro suave */
+}
+
+/* Seção principal */
+.produtos-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.produtos-section h1 {
+    font-size: 2.2rem;
+    color: #276a52; /* Verde pastel mais forte */
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    font-size: 1rem;
+    color: #4a7a65;
+    margin-bottom: 40px;
+}
+
+/* Grid dos produtos */
+.produtos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Cards */
+.produto-card {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.produto-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.09);
+}
+
+/* Imagens do produto */
+.produto-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+/* Nome do produto */
+.produto-card h3 {
+    margin: 0 0 10px;
+    font-size: 1.1rem;
+    color: #276a52;
+}
+
+/* Descrição */
+.produto-card p {
+    font-size: 0.9rem;
+    color: #4a7a65;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f3fdf7; /* Verde pastel muito suave */
+    color: #2d4a3f;
+}
+
+/* Seção */
+.produtos-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.produtos-section h1 {
+    font-size: 2.6rem;
+    color: #276a52;
+    margin-bottom: 8px;
+}
+
+.subtitulo {
+    color: #4a7a65;
+    margin-bottom: 40px;
+}
+
+/* GRID MAIOR */
+.produtos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* CARD MAIOR + EFEITOS */
+.produto-card {
+    background: #ffffff;
+    border-radius: 22px;
+    padding: 28px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: 
+        transform 0.25s ease, 
+        box-shadow 0.25s ease, 
+        filter 0.25s ease;
+    cursor: pointer;
+}
+
+/* EFEITOS DIFERENTES NO HOVER */
+.produto-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
+    filter: brightness(1.05);
+}
+
+/* IMAGENS MAIORES */
+.produto-card img {
+    width: 100%;
+    height: 240px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+/* Efeito zoom leve na imagem */
+.produto-card:hover img {
+    transform: scale(1.07);
+}
+
+/* Títulos */
+.produto-card h3 {
+    font-size: 1.25rem;
+    color: #276a52;
+    margin-bottom: 10px;
+}
+
+/* Texto */
+.produto-card p {
+    font-size: 1rem;
+    color: #527a67;
+}
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", Arial, sans-serif;
+}
+
+/* Fundo full-screen com leve overlay para facilitar a leitura */
+body {
+     
+        background: 
+            linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+            url("background.jpg") center/cover no-repeat;
+        color: #244c3c;
+        min-height: 100vh;
+        padding: 120px 40px 40px; /* espaço pro header no topo */
+    
+    
+}
+
+/* Container do conteúdo */
+.sobre-container {
+    max-width: 900px;
+    width: 100%;
+}
+
+/* Caixa visual clean e premium */
+.sobre-content {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 40px 50px;
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    animation: fadeIn 0.9s ease forwards;
+}
+
+/* Título clean */
+.titulo {
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #1e3d34;
+}
+
+/* Parágrafos */
+.texto {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    margin-bottom: 18px;
+    color: #2f594a;
+}
+
+/* Animação suave */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    .sobre-content {
+        padding: 30px 25px;
+    }
+
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .texto {
+        font-size: 1rem;
+    }
+}
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 15px 40px;
+    z-index: 100;
+    backdrop-filter: blur(8px);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #1e3d34;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.menu a:hover {
+    color: #2f8060;
+}
+
+.buttons .btn {
+    padding: 8px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 10px;
+    transition: 0.2s;
+}
+
+.entrar {
+    background: transparent;
+    border: 1.6px solid #2f8060;
+    color: #2f8060;
+}
+
+.entrar:hover {
+    background: #2f8060;
+    color: white;
+}
+
+.registrar {
+    background: #2f8060;
+    color: white;
+}
+
+.registrar:hover {
+    opacity: 0.85;
+}
+
+
