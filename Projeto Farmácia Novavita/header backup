@@ -1,0 +1,16 @@
+<header>
+    <nav class="navbar">
+        <img src="logo e nome.png" class="logo" alt="Logo da Farmácia Novavita">
+        <ul class="menu">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre nós</a></li>
+            <li><a href="contato.html">Onde nos encontrar</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+        </ul>
+
+        <div class="buttons">
+            <a href="login.html" class="btn entrar">Entrar</a>
+            <a href="registrar.html" class="btn registrar">Registrar</a>
+        </div>
+    </nav>
+</header>
